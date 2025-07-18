@@ -16,16 +16,16 @@ import (
 
 type TaskManager interface {
 	CreateTask(task *models.Task) (*models.Task, error)                     // create new task with validation
-	DeleteTask(taskID string) error                 					    // delete existing task or return error if not found
-	GetAllTasks() ([]models.Task, error)         					        // get all tasks in the system
-	GetTaskByID(taskID string) (*models.Task, error) 					    // get specific task by id or return error if not found
+	DeleteTask(taskID string) error                 			// delete existing task or return error if not found
+	GetAllTasks() ([]models.Task, error)         				// get all tasks in the system
+	GetTaskByID(taskID string) (*models.Task, error) 		        // get specific task by id or return error if not found
 	UpdateTask(taskID string, task *models.Task) (*models.Task, error)      // update existing task or return error if not found
 }
 
 type MongoDBTaskManager struct {
 	client     	 *mongo.Client      // connection to mongodb
-	database     string             // which database to use
-	collection   string             // which collection to work with
+	database         string             // which database to use
+	collection       string             // which collection to work with
 }
 
 // create a new connection to mongodb
