@@ -114,7 +114,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5c...
 ```
 
 - Error: `401 Unauthorized` 
-**Description**: This occurs when no authorization provided.
+- **Description**: This occurs when no authorization provided.
 ```json
 {
     "error": "authorization header required"
@@ -147,7 +147,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5c...
 }
 ```
 - Not Found: `404 Not Found`
-**Description**: This occurs when authorization provided, but no task registered with the id.
+- **Description**: This occurs when authorization provided, but no task registered with the id.
 ```json
 {
     "error": "no task found with this id to see"
@@ -178,7 +178,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5c...
 }
 ```
 - Error: `403 Forbidden`
-**Description**: This occurs when authorization provided, but the user is not an admin.
+- **Description**: This occurs when authorization provided, but the user is not an admin.
 ```json
 {
   "error": "admin access required"
@@ -221,7 +221,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5c...
 }
 ```
 - Error: `403 Forbidden`
-**Description**: This occurs when authorization provided, but the user is not an admin.
+- **Description**: This occurs when authorization provided, but the user is not an admin.
 ```json
 {
   "error": "admin access required"
@@ -262,7 +262,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5c...
 }
 ```
 - Error: `403 Forbidden`
-**Description**: This occurs when authorization provided, but the user is not an admin.
+- **Description**: This occurs when authorization provided, but the user is not an admin.
 ```json
 {
   "error": "admin access required"
@@ -291,7 +291,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5c...
 }
 ```
 - Error: `403 Forbidden`
-**Description**: This occurs when authorization provided, but the user is not an admin.
+- **Description**: This occurs when authorization provided, but the user is not an admin.
 ```json
 {
   "error": "admin access required"
