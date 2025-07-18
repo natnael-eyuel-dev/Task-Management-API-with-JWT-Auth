@@ -1,4 +1,4 @@
-## Fundamentals of Go Tasks: Task 5 - Enhancing Task Management API with Persistent Data Storage using MongoDB and Mongo Go Driver
+## Fundamentals of Go Tasks: Task 6 - Implementing Authentication and Authorization with JWT for Task Management API
 
 ## Natnael Eyuel - A2SV G62 
 
