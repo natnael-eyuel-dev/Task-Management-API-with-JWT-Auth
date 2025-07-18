@@ -146,7 +146,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5c...
     "status": "pending"
 }
 ```
-- Not Found: `404 Not Found`
+- Error: `404 Not Found`
 - **Description**: This occurs when authorization provided, but no task registered with the id.
 ```json
 {
