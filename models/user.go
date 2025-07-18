@@ -8,6 +8,6 @@ type User struct {
 }
 
 type Credentials struct {
-	Username 	 string      `json:"username" binding:"required"`     // login username (required field)
-    Password 	 string 	 `json:"password" binding:"required"`     // login password (required field)
+	Username 	 string          `json:"username" binding:"required"`     // login username (required field)
+        Password 	 string 	 `json:"password" binding:"required"`     // login password (required field)
 }
